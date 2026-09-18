@@ -1,0 +1,5 @@
+attribute = input("Enter a physical body part: ")
+texture = input("Enter a weird texture: ")
+noise = input("Enter a noise: ")
+name = input("Enter a made-up species: ")
+print("Behold! The",texture + "-" + attribute + "ed",name + " " + "makes a terrifying",noise + " " + "as it shuffles closer!")
