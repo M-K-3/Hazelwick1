@@ -1,0 +1,8 @@
+name1 = input("Enter a name: ")
+name2 = input("Enter another name: ")
+name3 = input("Enter another name: ")
+name4 = input("Enter another name: ")
+material1 = input("Enter a material: ")
+material2 = input("Enter another material: ")
+material3 = input("Enter another material: ")
+print("There once were 3 little pigs. The first was called",name1,", the second was called",name2,", and the third was called",name3 + ". " + "The first house was made from",material1,", the second house was made of",material2,", and the third house was made of",material3 + ". " + "The big bad wolf was called",name4,"and he blew down the first two houses easily. He could not destroy the third house with all his might. The pigs lived happily ever after.")
