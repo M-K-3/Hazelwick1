@@ -1,3 +1,9 @@
-print("1 1 1")
-print("2 2 2")
-print("3 3 3")
+row = 1
+
+while row <= 3:
+    col = 1
+    while col <= 3:
+        print(row, end = " ")
+        col += 1
+    print()
+    row += 1
