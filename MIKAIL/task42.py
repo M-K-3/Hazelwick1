@@ -1,8 +1,6 @@
+count = 0
 while True:
-    guess = 0
-    while guess < 100:
-        num = int(input("Enter a number: "))
-        guess += num
-
-    print(f"Final total: {guess}")
-    break
+    num = int(input("Enter your number:  "))
+    count = count + num
+    if count >= 100:
+        break
